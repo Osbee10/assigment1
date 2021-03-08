@@ -1,0 +1,32 @@
+.main {
+background-color: hsl(196, 53%, 33%);
+
+}
+#nav {
+    background-color: hsl(160, 60%, 49%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#menu {
+    display: flex;
+    list-style: none;
+    margin-right: 40px;
+}
+.obody {
+    display: flex;
+ flex: 0.3;
+ height: 370px;
+}
+#ab {
+    margin-right: 20px;
+}
+#in {
+    margin-right: 20px;
+}
+#car {
+    height: 200px;
+    width: 50%;
+}
+.last {
+}
