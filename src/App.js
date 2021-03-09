@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import MyFirstComponent from './MyFirstComponent';
+import MySecondComponent from './MySecondComponent';
+import MyThirdComponent from './MyThirdComponent';
+import MyFourthComponent from './MyFourthComponent';
+import MyFifthComponent from './MyFifthComponent';
+import MySixthComponent from './MySixthComponent';
+import MySeventhComponent from './MySeventhComponent';
+import MyEightComponent from './MyEightComponent';
+import MyNinthComponent from './MyNinthComponent';
+import MyTenthComponent from './MyTenthComponent';
+import MasterComponent from './MasterComponent';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <MyFirstComponent/>
+      <MySecondComponent/>
+      <MyThirdComponent/>
+      <MyFourthComponent/>
+      <MyFifthComponent/>
+      <MySixthComponent/>
+      <MySeventhComponent/>
+      <MyEightComponent/>
+      <MyNinthComponent/>
+      <MyTenthComponent/> */}
+      
+      <MasterComponent name="1" height="45"/>
+      <MasterComponent name="2" height="67"/>
+      <MasterComponent name="3" height="34"/>
+      <MasterComponent name="4" height="30"/>
+
+      
     </div>
   );
 }
