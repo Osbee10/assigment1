@@ -30,7 +30,7 @@ function App() {
       <MasterComponent name='3' height='34' />
       <MasterComponent name='4' height='38' />  */}
 
-      {/* <ParentComponent name="Kojo" gender="Female" age="23" email="asinsjg@gmala.com"/> */}
+      {/*<ParentComponent name="Kojo" gender="Female" age="23" email="asinsjg@gmala.com"/> */}
     </div>
   );
 }
