@@ -1,6 +1,6 @@
 function MyFourthComponent(){
     return(
-        <h1>MyFourthComponent</h1>
-    )
+    <h1 id='mycomp'>MyFourthComponent</h1>
+    );
 }
 export default MyFourthComponent
