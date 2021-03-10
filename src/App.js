@@ -8,14 +8,14 @@ import MySeventhComponent from './myseventhcomponent'
 import MyEightComponent from './myeightcomponent'
 import MyNinthComponent from './myninthcomponent'
 import MyTenthComponent from './mytenthcomponent'
-import MasterComponent from './MasterComponents'
-import ParentComponent from './parentcomponent'
+// import MasterComponent from './MasterComponents'
+// import ParentComponent from './parentcomponent'
 
 function App() {
   
   return (
     <div>
-      {/* <MyFirstComponent />
+      <MyFirstComponent />
       <MySecondComponent />
       <MyThirdComponent />
       <MyFourthComponet />
@@ -24,13 +24,13 @@ function App() {
       <MySeventhComponent />
       <MyEightComponent />
       <MyNinthComponent />
-      <MyTenthComponent /> */}
-      <MasterComponent name='1' height='45' />
+      <MyTenthComponent />
+      {/* <MasterComponent name='1' height='45' />
       <MasterComponent name='2' height='67' />
       <MasterComponent name='3' height='34' />
-      <MasterComponent name='4' height='38' />
+      <MasterComponent name='4' height='38' />  */}
 
-      <ParentComponent  {name:'Kojo' gender:'Female' age:/>
+      {/* <ParentComponent name="Kojo" gender="Female" age="23" email="asinsjg@gmala.com"/> */}
     </div>
   );
 }
